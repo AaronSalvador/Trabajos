@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Mejorada</title>
+    <link rel="stylesheet" href="Styles/Styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h1>Bienvenidos a nuestra página</h1>
+        <p>Productos de calidad y diseños exclusivos, superando siempre tus expectativas.</p>
+    </section>
+
+    <section id="servicios">
+        <h2>Nuestros Servicios</h2>
+        <ul>
+            <li>Más de 500 cursos en línea para ilustración, diseño, fotografía y audiovisual.</li>
+            <li>Plataforma accesible en Web y Mobile App.</li>
+            <li>Personalización según tus intereses.</li>
+        </ul>
+    </section>
+
+    <section id="proyectos">
+        <h2>Proyectos Realizados</h2>
+        <div class="videos">
+            <video controls>
+                <source src="video1.mp4" type="video/mp4">
+                Tu navegador no soporta videos.
+            </video>
+            <video controls>
+                <source src="video2.mp4" type="video/mp4">
+                Tu navegador no soporta videos.
+            </video>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2>Contáctanos</h2>
+        <form id="contactForm">
+            <input type="text" placeholder="Tu nombre" id="name" required>
+            <input type="email" placeholder="Tu correo" id="email" required>
+            <textarea placeholder="Tu mensaje" id="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Síguenos en redes sociales</p>
+    </footer>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
